@@ -1,180 +1,249 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(185,178.175);
+body {
+	background-color: rgb(185, 178.175);
 }
-html{
-    font-size: 10px;
-}
-
-#section-1{
-    height: 100px;
-    padding: 4rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    gap: .4rem; 
-    background-image: linear-gradient(to bottom, rgba(60, 90, 50, 0.158), rgba(0.5, 90, 70, 0.122), rgba(0.44, 0.6, 90, 0));
+html {
+	font-size: 10px;
 }
 
-#section-1 h1{
-    font-size: 3rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-#section-1 h3{
-    font-size: 2rem;
-    font-weight: 500;
-}
-
-.container{
-    width: 75%;
-    height: 78vh;
-    border: 1px solid rgb(240, 246, 251);
-    margin: 3rem auto;
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    padding: 1rem;
+#section-1 {
+	height: 100px;
+	padding: 4rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.4rem;
+	background-image: linear-gradient(
+		to bottom,
+		rgba(60, 90, 50, 0.158),
+		rgba(0.5, 90, 70, 0.122),
+		rgba(0.44, 0.6, 90, 0)
+	);
 }
 
-.card-1, .card-2{
-    border: 2px solid black;
-    width: 40%; ;
-    height: 45rem;
-    margin-top: 2rem;
-    background: linear-gradient(
-        rgba(56, 910, 839, 0),
-        rgb(156, 194, 244),
-        rgb(156, 194, 244) 
-        );
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#section-1 h1 {
+	font-size: 3rem;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
 }
-.card-1{
-    justify-content: center;
+#section-1 h3 {
+	font-size: 2rem;
+	font-weight: 500;
 }
-.container-1{
-    width: 95%;
-    height: 98%;
-    border-radius: 10px;
+
+.container {
+	width: 75%;
+	height: 78vh;
+	border: 1px solid rgb(240, 246, 251);
+	margin: 3rem auto;
+	display: flex;
+	justify-content: center;
+	gap: 3rem;
+	padding: 1rem;
 }
-.container-1 img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
+
+.card-1,
+.card-2 {
+	border: 2px solid black;
+	width: 40%;
+	height: 45rem;
+	margin-top: 2rem;
+	background: linear-gradient(
+		rgba(56, 910, 839, 0),
+		rgb(156, 194, 244),
+		rgb(156, 194, 244)
+	);
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
-.container-1 p{
-    background-color: rgb(156, 194, 244);
-    color: black;
-    border-radius: 1px solid black;
-    opacity: 0.5;
-    height: 3rem;
-    width: 7rem;
-    font-size: 2.3rem;
-    font-weight: rem;
-    font-style: italic;
-    border-bottom-right-radius: 100px 100px;
-    border-bottom-left-radius: 100px 100px;
+.card-1 {
+	justify-content: center;
 }
-.card-2{
-    border: 2px solid black;
-    background-color: rgb(240, 246, 251);
-} 
-.container-2{
-    border: 1px solid rgba(0, 0, 0, 0.379);
-    width: 95% ;
-    border-top-left-radius: 80px 60px ;
-    background-color: rgb(156, 194, 244);
+.container-1 {
+	width: 95%;
+	height: 98%;
+	border-radius: 10px;
 }
-.pic{
-    border-top-left-radius: 80px 60px ;
-    display: flex;
+.container-1 img {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
 }
-.pic img{
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 80px 60px;
-    width: 15rem;
-    border-color: black;
+.container-1 p {
+	background-color: rgb(156, 194, 244);
+	color: black;
+	border-radius: 1px solid black;
+	opacity: 0.5;
+	height: 3rem;
+	width: 7rem;
+	font-size: 2.3rem;
+	font-weight: rem;
+	font-style: italic;
+	border-bottom-right-radius: 100px 100px;
+	border-bottom-left-radius: 100px 100px;
 }
-.pic p{
-    font-size: 1.6rem;
-    align-self: flex-end;
-    padding-left: 1rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
-    font-weight: 600;
+.card-2 {
+	border: 2px solid black;
+	background-color: rgb(240, 246, 251);
 }
-.details{
-    margin-top: 2.5rem;
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+.container-2 {
+	border: 1px solid rgba(0, 0, 0, 0.379);
+	width: 95%;
+	border-top-left-radius: 80px 60px;
+	background-color: rgb(156, 194, 244);
 }
-table{
-    width: 100%;
-    border-spacing: .6rem;
+.pic {
+	border-top-left-radius: 80px 60px;
+	display: flex;
 }
-td:nth-child(2){
-    color: #fff;
-    font-weight: 600;
+.pic img {
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 80px 60px;
+	width: 15rem;
+	border-color: black;
 }
-footer{
-    background: rgb(240, 246, 251);
-    margin-top: 1rem;
-    padding: .6rem;
-    width: 95%;
-    font-size: 1.6rem;
+.pic p {
+	font-size: 1.6rem;
+	align-self: flex-end;
+	padding-left: 1rem;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+	font-weight: 600;
 }
-footer h2{
-    text-align: center;
-    font-size: 2rem;
+.details {
+	margin-top: 2.5rem;
+	font-size: 16px;
+	font-family: 'Times New Roman', Times, serif;
 }
-.footer-1 img{
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
+table {
+	width: 100%;
+	border-spacing: 0.6rem;
 }
-.footer-1 p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: oblique;
-    font-size: 1.6rem;
+td:nth-child(2) {
+	color: #fff;
+	font-weight: 600;
 }
-.footer-2{
-    display: flex;
-    justify-content: flex-end;
-    background: linear-gradient(
-        rgba(56, 910, 839, 0),
-        rgb(156, 194, 244),
-        rgb(156, 194, 244) 
-        );    
+footer {
+	background: rgb(240, 246, 251);
+	margin-top: 1rem;
+	padding: 0.6rem;
+	width: 95%;
+	font-size: 1.6rem;
 }
-@media screen and (max-width: 672px){
-    .container {
-        width: 80%;
-        height: 100%;
-        margin: 4rem auto;
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-        padding: 1rem;
+footer h2 {
+	text-align: center;
+	font-size: 2rem;
+}
+.footer-1 img {
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+}
+.footer-1 p {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
+	font-style: oblique;
+	font-size: 1.6rem;
+}
+.footer-2 {
+	display: flex;
+	justify-content: flex-end;
+	background: linear-gradient(
+		rgba(56, 910, 839, 0),
+		rgb(156, 194, 244),
+		rgb(156, 194, 244)
+	);
+}
+
+@media screen and (max-width: 1340px) {
+	.container {
+		width: 75%;
+		height: 100%;
+		margin-bottom: 1rem;
+		border: 1px solid rgb(240, 246, 251);
+	}
+	.card-2 {
+		height: 100%;
+	}
+}
+@media screen and (max-width: 1140px) {
+	.container {
+		width: 80%;
+		height: 100%;
+		border: 1px solid rgb(240, 246, 251);
+	}
+	.card-1,
+	.card-2 {
+		border: 2px solid black;
+		width: 45%;
+		margin-bottom: 1rem;
+	}
+}
+@media screen and (max-width: 980px){
+    .container{
+        width: 85%;
+    }
+    .card-1,
+	.card-2 {
+		border: 2px solid black;
+		width: 47%;
+		margin-bottom: 1rem;
+	}
+}
+@media screen and (max-width: 867px){
+    .container{
+        width: 90%;
     }
     .card-1, .card-2{
-        width: 90%;
-        height: 98%;
+        width: 50%;
     }
-    .card-1{
-        height: 38rem;
+} 
+@media screen and (max-width: 780px){
+    .container {
+        width: 70%;
+		margin: 4rem auto;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+		padding: 1rem;
+	}
+    .card-1, .card-2{
+        width: 80%;
     }
-    .card-2{
-        margin-bottom: 1rem;
-    }
-}
+} 
 
+
+@media screen and (max-width: 672px) {
+	.container {
+		border: 2px solid red;
+		width: 90%;
+		height: 100%;
+		margin: 4rem auto;
+		flex-direction: column;
+		align-items: center;
+		gap: 2rem;
+		padding: 1rem;
+	}
+	.card-1,
+	.card-2 {
+		width: 90%;
+		height: 98%;
+	}
+	.card-1 {
+		height: 38rem;
+	}
+	.card-2 {
+		margin-bottom: 1rem;
+	}
+}
 
 /* @media screen and (max-width: 900px){
     .container{
@@ -223,10 +292,8 @@ footer h2{
 }
 } */
 
-
-
 /* @media screen and (min-width: 1100px) { */
-    /* html{
+/* html{
         display: none;
     }
     .container {
