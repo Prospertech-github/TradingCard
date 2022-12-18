@@ -234,11 +234,10 @@ footer h2 {
 } 
 @media screen and (max-width: 580px){
     .container{
-        border: 2px solid red;
-        width: 90%;
+        width: 95%;
     }
     .card-1, .card-2{
-        width: 95%;
+        width: 98%;
     }
 }
 
